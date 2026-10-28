@@ -287,8 +287,8 @@ const pages = [
       { p: "The focus is on finding a solution that could operate within the practical conditions of Lama Lama Country. Particular attention for the proposed solution was given to offline capability, ease of use, field conditions, maintainability, and the ability to improve weed-management system." },
       { p: "We used the user need and project constraints to guide ideation, screening and final selection." },
       { h: "Design Solutions Options" },
-      { optfig: { n: 1, name: "Portable Spot-Spray Device", text: "A portable field device designed to apply herbicide directly to identified weed infestations. It supports targeted treatment while Rangers are working to check identified infestations.", src: "images/fig1-spot-spray.jpg", title: "Lama Lama Ranger using a portable spot-spray device", source: "OpenAI, 2026" } },
-      { optfig: { n: 2, name: "Offline Ranger Prioritisation & Support App", text: "An offline application that records weed locations, photos, treatment details, and follow-up information. It also organises infestation records to help Rangers monitor and prioritise sites.", src: "images/fig2-offline-app.jpg", title: "Lama Lama Ranger using an offline weed management application", source: "OpenAI, 2026" } }
+      { optfig: { n: 1, name: "Portable Spot-Spray Device", text: "A portable field device designed to apply herbicide directly to identified weed infestations. It supports targeted treatment while Rangers are working to check identified infestations.", src: "images/fig1-spot-spray.jpg", title: "[Lama Lama Ranger using a portable spot-spray device]", source: "OpenAI, 2026" } },
+      { optfig: { n: 2, name: "Offline Ranger Prioritisation & Support App", text: "An offline application that records weed locations, photos, treatment details, and follow-up information. It also organises infestation records to help Rangers monitor and prioritise sites.", src: "images/fig2-offline-app.jpg", title: "[Lama Lama Ranger using an offline weed management application]", source: "OpenAI, 2026" } }
     ]
   },
   {
@@ -296,8 +296,8 @@ const pages = [
     title: "Design Solutions Options (continued)",
     heading: "",
     blocks: [
-      { optfig: { n: 3, name: "AI Photo-Based Weed Identification", text: "An image-recognition tool that analyses photographs of weeds to assist with species identification. The identified weed information can then be used to support field recording and management.", src: "images/fig3-photo-id.jpg", title: "Lama Lama Ranger using AI photo-based weed identification", source: "OpenAI, 2026" } },
-      { optfig: { n: 4, name: "Drone + Machine-Learning Aerial Survey", text: "A drone-based system that captures aerial imagery across larger areas of Country. Machine-learning analysis is used to identify and map possible weed infestations from the collected imagery.", src: "images/fig4-drone.jpg", title: "Drone detecting weed infestations", source: "OpenAI, 2026" } }
+      { optfig: { n: 3, name: "AI Photo-Based Weed Identification", text: "An image-recognition tool that analyses photographs of weeds to assist with species identification. The identified weed information can then be used to support field recording and management.", src: "images/fig3-photo-id.jpg", title: "[Lama Lama Ranger using AI photo-based weed identification]", source: "OpenAI, 2026" } },
+      { optfig: { n: 4, name: "Drone + Machine-Learning Aerial Survey", text: "A drone-based system that captures aerial imagery across larger areas of Country. Machine-learning analysis is used to identify and map possible weed infestations from the collected imagery.", src: "images/fig4-drone.jpg", title: "[Drone detecting weed infestations]", source: "OpenAI, 2026" } }
     ]
   },
   { type: "matrix", chapter: 4, cont: true, toc: true, title: "Weighted Decision Matrix" },
@@ -525,8 +525,8 @@ const pages = [
     blocks: [
       { p: "The current design works well, however, it can be improved by integrating some extensive technologies." },
       { recs: { start: 1, items: [
-        { title: "AI Integration", text: "An on-device image-recognition model could identify weed species from photos without internet access, addressing the connectivity limits of the stand-alone AI option (Option 3). Model updates could be delivered with regular app updates.", fig: { n: 8, title: "Artificial intelligence concept image", src: "images/rec1-ai.png", source: "Adobe, n.d." } },
-        { title: "Connectivity &amp; Sync", text: "Advanced conflict resolution algorithms and Bluetooth P2P mesh sharing for deep remote camps.", fig: { n: 9, title: "Network Illustration", src: "images/rec2-network.png", source: "Coeo Solutions, n.d." } }
+        { title: "AI Integration", text: "An on-device image-recognition model could identify weed species from photos without internet access, addressing the connectivity limits of the stand-alone AI option (Option 3). Model updates could be delivered with regular app updates.", fig: { n: 8, title: "[Artificial intelligence concept image]", src: "images/rec1-ai.png", source: "Adobe, n.d." } },
+        { title: "Connectivity &amp; Sync", text: "Advanced conflict resolution algorithms and Bluetooth P2P mesh sharing for deep remote camps.", fig: { n: 9, title: "[Network Illustration]", src: "images/rec2-network.png", source: "Coeo Solutions, n.d." } }
       ] } }
     ]
   },
@@ -536,8 +536,8 @@ const pages = [
     heading: "",
     blocks: [
       { recs: { start: 3, items: [
-        { title: "Plug-ins", text: "High-resolution aerial drone integrated to the application to perform large area scanning and possibly treatment for specific weeds.", fig: { n: 10, title: "DJI Air 3 drone", src: "images/rec3-drone.png", source: "DJI, 2023" } },
-        { title: "Executive Dashboard", text: "Centralized web analytics for Yintjingga Aboriginal Corporation grant tracking and environmental reporting.", fig: { n: 11, title: "Executive Dashboard Illustration", src: "images/rec4-dashboard.png", source: "Augmented Tech Labs, 2025" } }
+        { title: "Plug-ins", text: "High-resolution aerial drone integrated to the application to perform large area scanning and possibly treatment for specific weeds.", fig: { n: 10, title: "[DJI Air 3 drone]", src: "images/rec3-drone.png", source: "DJI, 2023" } },
+        { title: "Executive Dashboard", text: "Centralized web analytics for Yintjingga Aboriginal Corporation grant tracking and environmental reporting.", fig: { n: 11, title: "[Executive Dashboard Illustration]", src: "images/rec4-dashboard.png", source: "Augmented Tech Labs, 2025" } }
       ] } }
     ]
   },
@@ -744,7 +744,7 @@ function bodyHTML(page, index) {
       return `<div class="ack">
         <h2 class="page-title">Acknowledgement of Country</h2>
         <p class="lead">We acknowledge and pay respect to the Traditional Owners of the land on which we meet; the Gadigal people of the Eora Nation. It is upon their ancestral lands that UTS stands.</p>
-        <p class="lead">We also pay respect to the Elders both past and present, acknowledging them as the traditional custodians of knowledge for this land.</p>
+        <p class="lead">We also acknowledge the Lama Lama people, Traditional Owners of Lama Lama Country in Cape York, and pay our respects to their Elders past and present. This project was developed to support the work of the Lama Lama Rangers in caring for Country.</p>
       </div>`;
 
     case "title":
